@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+padding: 0;
+margin: 0;
+max-width: 100%;
+color: inherit;
+}
+body {
+  font-family: "Open Sans";
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  padding: 3rem;
+}
+a {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "raleway";
+}
+ul {
+  list-style: none;
+}
+nav ul {
+  display: flex;
+  gap: 16px;
+}
+button {
+  background-color: hsl(198, 60%, 50%);
+  padding: 8px 16px;
+  border: none;
+  border-radius: 999px;
+}
+/*layout*/
+h1 {
+  font-size: 48px;
+  max-width: 560px;
+}
+p {
+  max-width: 560px;
+}
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+  gap: 16px;
+}
+.grid-2x-cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-3x-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  display: grid;
+  gap: 1rem;
+}
+.fig {
+  display: flex;
+  gap: 1rem;
+}
+.fig img {
+  border-radius: 50%;
+  height: 50px;
+}
+button-cover {
+
+}
+

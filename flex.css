@@ -1,0 +1,35 @@
+#container {
+  background-color: orange;
+  padding: 20px;
+  height: 100px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.child {
+  background-color: pink;
+}
+.gap-16 {
+  display: flex;
+  gap: 16px;
+}
+#grid-container {
+  background-color: limegreen;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
+.grid-child {
+  background-color: lightblue;
+}
+
+@media (max-width: 500px) {
+  #container {
+    background-color: pink;
+  }
+  #grid-container {
+    background-color: orange;
+    grid-template-columns: 1fr;
+  }
+}
