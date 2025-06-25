@@ -1,0 +1,21 @@
+body { font-family: 'Arial', sans-serif; background: #fdf6e3; color: #333; padding: 20px; text-align: center; }
+
+.header { background: #fffde7; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px #ccc; margin-bottom: 30px; }
+
+.water-prayer-labels h2 { margin-bottom: 15px; }
+
+.trackers { display: flex; justify-content: space-around; flex-wrap: wrap; }
+
+.water-track { display: flex; flex-direction: column; align-items: center; }
+
+#waterCups { display: flex; gap: 10px; flex-wrap: wrap; justify-content: center; margin-top: 10px; }
+
+.water-cup { width: 40px; height: 60px; background: #b3e5fc; border-radius: 5px; position: relative; cursor: pointer; border: 2px solid #0288d1; display: flex; align-items: flex-end; justify-content: center; transition: background 0.3s; }
+
+.water-cup.active { background: #0288d1; }
+
+.water-cup span { font-size: 12px; color: #fff; margin-bottom: 3px; }
+
+.prayer-track { text-align: left; padding: 10px; }
+
+#prayers label { display: block; margin: 5px 0; }
